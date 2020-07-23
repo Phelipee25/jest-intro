@@ -3,7 +3,7 @@
 // Por fim, crie um teste para validar que sua função está funcionando corretamente.
 
 function parametro(a){
-    if (a == 'string'){
+    if (typeof(a) == 'string'){
         return true
     }
     else {
